@@ -1,0 +1,90 @@
+
+
+.App {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.search input {
+  width: 900px;
+
+}
+
+.characters__item {
+  position: relative;
+  display: flex;
+  opacity: 1;
+}
+
+.characters__item:hover {
+  transition: all .25s;
+  transform: scale(101%);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.characters__item img {
+  cursor: pointer;
+}
+
+
+.characters__delete {
+  cursor: pointer;
+  position: absolute;
+  right: .25rem;
+  top: .25rem;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.party {
+  margin-top: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.party__characters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.party__img {
+  height: 300px;
+  width: 300px;
+  background-color: #DADADA;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.party__img img {
+  z-index: 100;
+}
+
+.party__img h2 {
+  position: absolute;
+}
