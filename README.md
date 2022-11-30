@@ -30,16 +30,16 @@ And have a party with the main characters.
     |--package.json
 
 ## Project Stack
-`
-    -ReactJS
+
+    `-ReactJS
 
     -GrahQL
 
     -Apollo Client
 
-    -Material UI
-    
-`
+    -Material UI`
+
+
 
 ## Launching the application
 
