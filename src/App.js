@@ -28,7 +28,7 @@ function App() {
       const newState = data.characters.results.filter(item => !deleteItem.includes(item.name));
       setState(newState);
     }
-  }, [data])
+  }, [data, loading, deleteItem])
 
 
 

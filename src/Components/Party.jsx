@@ -11,9 +11,9 @@ const Party = (props) => {
         <div className='party'>
             <Typography variant="h2" component="h2">PARTY</Typography>
             <div className='party__characters'>
-                {Object.keys(props.party).map(item => (
-                    <div className='party__img'>
-                        <img src={props.party[item]} />
+                {Object.keys(props.party).map((item, index)=> (
+                    <div className='party__img' key={index}>
+                        <img alt={props.item} src={props.party[item]} />
                         <Typography
                             variant="h2"
                             component="h2"
