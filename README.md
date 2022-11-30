@@ -29,6 +29,13 @@ And have a party with the main characters.
     |--package-lock.json
     |--package.json
 
+## Project Stack
+
+    -`ReactJS`\
+    -`GrahQL`\
+    -`Apollo Client`\
+    -`Material UI`
+
 ## Launching the application
 
 Open this repository in any code editor
