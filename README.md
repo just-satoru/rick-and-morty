@@ -7,27 +7,27 @@ And have a party with the main characters.
 ## Project structure
     .
     |
-    |--public
-    |    |--favicon.ico
-    |    |--index.html
-    |    |--logo192.png
-    |    |--logo512.png
-    |    |--manifest.json
-    |    |--robots.txt
-    |--src
-    |    |--Components
-    |           |--CardCharacter.jsx
-    |           |--Party.jsx
-    |           |--Search.jsx
-    |    |--query
-    |           |--character.jsx
-    |    |--App.css
-    |    |--App.js
-    |    |--index.js
-    |--.gitignore
-    |--README.md
-    |--package-lock.json
-    |--package.json
+    ├──public
+    |    ├──favicon.ico
+    |    ├──index.html
+    |    ├──logo192.png
+    |    ├──logo512.png
+    |    ├──manifest.json
+    |    ├──robots.txt
+    ├──src
+    |    ├──Components
+    |           ├──CardCharacter.jsx
+    |           ├──Party.jsx
+    |           ├──Search.jsx
+    |    ├──query
+    |           ├──character.jsx
+    |    ├──App.css
+    |    ├──App.js
+    |    ├──index.js
+    ├──.gitignore
+    ├──README.md
+    ├──package-lock.json
+    └──package.json
 
 ## Project Stack
 
