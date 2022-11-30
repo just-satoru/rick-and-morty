@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useQuery } from '@apollo/client';
 import { GET_CHARACTERS } from './query/character';
 import './App.css';
-import CardCharacter from './Components/CardCharacter';
 import Party from './Components/Party';
 import Search from './Components/Search';
+import Characters from './Components/Characters';
 
 
 function App() {
@@ -18,9 +18,7 @@ function App() {
   const [deleteItem, setDeleteItem] = useState([]);
 
 
-  const { data, loading, error } = useQuery(GET_CHARACTERS(input.length > 2 ? input : ''), {
-    pollInterval: 300,
-  });
+  const { data, loading, error } = useQuery(GET_CHARACTERS(input.length > 2 ? input : ''));
 
 
   useEffect(() => {
@@ -30,23 +28,17 @@ function App() {
     }
   }, [data, loading, deleteItem])
 
-
-
   return (
     <div className="App">
       <Search input={input} setInput={setInput} />
-      <div className='characters'>
-        {state.map((item, index) =>
-          <CardCharacter
-            key={item.id}
-            item={item}
-            party={party}
-            setState={setState}
-            setDeleteItem={setDeleteItem}
-            setParty={setParty}
-          />
-        )}
-      </div>
+      <Characters
+        state={state}
+        setState={setState}
+        party={party}
+        setParty={setParty}
+        setDeleteItem={setDeleteItem}
+        loading={loading} error={error}
+      />
       <Party party={party} />
     </div>
   );
