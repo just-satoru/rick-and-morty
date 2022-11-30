@@ -31,9 +31,9 @@ And have a party with the main characters.
 
 ## Project Stack
 `
-    -ReactJS
-    -GrahQL
-    -Apollo Client
+    -ReactJS\
+    -GrahQL\
+    -Apollo Client\
     -Material UI
 `
 
