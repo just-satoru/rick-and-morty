@@ -43,13 +43,13 @@ This application consists of 3 blocks.
 
 1. Input string\
    Here you can enter the name of any character from the animated series, as soon as there are more than 2 characters in the string, an API request will be executed and the search results will be displayed
-    ![Image alt](https://github.com/just-satoru/rick-and-morty/raw/img/input.jpg)
+    ![Image alt](https://github.com/just-satoru/rick-and-morty/img/input.jpg)
 2. Character Block\
     -This block displays the search results.\
     -By clicking on any image of rick or morty you will add them to the party block.\
     -By clicking on the cross on the character's card, you will remove it from the search results, this character will no longer be displayed even when searching again, until the page is reloaded
-    ![Image alt](https://github.com/just-satoru/rick-and-morty/raw/img/characters.jpg)
+    ![Image alt](https://github.com/just-satoru/rick-and-morty/img/characters.jpg)
 3. Party block\
     The characters you selected in the upper block are displayed here.
 
-    ![Image alt](https://github.com/just-satoru/rick-and-morty/raw/img/party.jpg)
+    ![Image alt](https://github.com/just-satoru/rick-and-morty/img/party.jpg)
